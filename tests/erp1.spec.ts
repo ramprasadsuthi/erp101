@@ -9,5 +9,6 @@ test('My first recorded test ', async ({ page }) => {
 });
 
 test('My second one', async({page}) => {
-  console.log("Testing purpose")
+  console.log("Testing purpose");
+  console.log("Update is done..");
 });
