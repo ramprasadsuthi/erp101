@@ -7,3 +7,7 @@ test('My first recorded test ', async ({ page }) => {
   await page.getByRole('button', { name: 'Login' }).click();
   await page.pause();
 });
+
+test('My second one', async({page}) => {
+  console.log("Testing purpose")
+});
